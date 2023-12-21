@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+* li {
+  list-style: none;
+  cursor: pointer;
+}
+
+* a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* button, input {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+* i {
+  cursor: pointer;
+}
+
+* img {
+  cursor: pointer;
+}
+
+.apply {
+  background-color: #10c98f;
+  color: white;
+  padding: 15px 27px;
+}
+
+.navbar {
+  color: white;
+  align-items: center;
+}
+.navbar ul {
+  gap: 25px;
+}
+.navbar ul li a {
+  color: white;
+  font-weight: 700;
+}
+
+#banner {
+  background: linear-gradient(rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4)), url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 200px 0;
+}
+#banner .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 100px;
+  padding: 100px 32px;
+}
+#banner .right label {
+  color: #3F4854;
+  font-size: 14px;
+}
+#banner .right .select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+#banner .right select {
+  outline: none;
+  padding: 10px 10px;
+}
+#banner .right select option {
+  background-color: #10c98f;
+}
+#banner .right span {
+  color: #0F4332;
+  font-size: 30px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+#banner .right p {
+  color: #3F4854;
+  font-size: 14px;
+  line-height: 1.8;
+  position: relative;
+}
+#banner .right p::after {
+  content: "";
+  height: 3px;
+  background-color: #10c98f;
+  width: 45%;
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 50px);
+}
+
+.heading {
+  font-size: 70px;
+  color: white;
+}
+
+.sub {
+  font-size: 30px;
+  color: white;
+}
+
+.services {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 15px 27px;
+  transition: all 0.5s ease;
+}
+.services:hover {
+  background-color: #10c98f;
+  border: 1px solid #10c98f;
+}/*# sourceMappingURL=style.css.map */

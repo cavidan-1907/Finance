@@ -1,0 +1,18 @@
+.apply{
+    background-color: #10c98f;
+    color: white;
+    padding: 15px 27px;
+}
+.navbar{
+    color: white;
+    align-items: center;
+    ul{
+        gap: 25px;
+        li{
+            a{
+                color: white; 
+                font-weight: 700;
+            }
+        }
+    }
+}
