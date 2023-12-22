@@ -1,79 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Cavidan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+  <title>Cavidan</title>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg  position-absolute w-100">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./assets/image/logo.png (1).webp" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-disabled="true">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-            <button class="apply">
-                Apply For Loan
-            </button>
-          </div>
-        </div>
-      </nav>
-<section id="banner">
+  <nav class="navbar navbar-expand-lg  position-fixed w-100">
     <div class="container">
-<div class="row">
-    <div class="col-12 col-md-7">
-        <h1 class="heading">The simple online home loan.</h1>
-    <h5 class="sub">Financial uncerteainty is hard on employees, and causes even.</h5>
-    <button class="services" > OUR SERVICES</button>
-    </div>
-    <div class="col-12 col-md-5   right bg-white">
-<span>How much you want?</span>
-<p>We provide online instant cash loans</p>
-<div class="select">
-  <label for="AMOUNT YOU WANT">AMOUNT YOU WANT</label>
-  <select name="select" id="select">
-    <option value="">Select Amount</option>
-    <option value="">Category 1</option>
-    <option value="">Category 2</option>
-    <option value="">Category 3</option>
-  </select>
-  <label for="AMOUNT YOU WANT">MONTH</label>
-  <select name="select" id="select">
-    <option value="">Select Month</option>
-    <option value="">Year</option>
-    <option value="">Week</option>
-    <option value="">Days 3</option>
-  </select>
-</div>
+      <a class="navbar-brand" href="#"><img src="./assets/image/logo.png (1).webp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-disabled="true">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="apply">
+              Apply For Loan
+            </button>
+          </li>
+        </ul>
 
+      </div>
     </div>
-</div>
-
-
+  </nav>
+  <section id="banner">
+    <div class="container">
+      <div class="row gap-4">
+        <div class="left">
+          <h1 class="heading">The simple online home loan.</h1>
+          <h5 class="sub">Financial uncerteainty is hard on employees, and causes even.</h5>
+          <button class="services"> OUR SERVICES</button>
+        </div>
+        <div class=" right bg-white">
+          <span>How much you want?</span>
+          <p>We provide online instant cash loans</p>
+          <div class="select">
+            <label for="AMOUNT YOU WANT">AMOUNT YOU WANT</label>
+            <select name="select" id="select">
+              <option value="">Select Amount</option>
+              <option value="">Category 1</option>
+              <option value="">Category 2</option>
+              <option value="">Category 3</option>
+            </select>
+            <label for="AMOUNT YOU WANT">MONTH</label>
+            <select name="select" id="select">
+              <option value="">Select Month</option>
+              <option value="">Year</option>
+              <option value="">Week</option>
+              <option value="">Days 3</option>
+            </select>
+          </div>
+          <h5>YOU HAVE TO PAY: <span style="color: #10c98f;">$0</span></h5>
+          <button>APPLY NO</button>
+          <h6>WE provide online instant cash loans<h6>
+        </div>
+      </div>
     </div>
-</section>
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </section>
+
+  <section class="section2">
+    <div class="container">
+      <div class="section21">
+        <div class="top">
+          <h1>Solutions for every business need.</h1>
+          <p>The brochure must grab a viewer’s attention and hold it long
+              enough to deliver the pertinent information.</p>
+        </div>
+        <input type="search" id="search" placeholder="Search">
+        <div class="bottom"><div class="card"></div></div>
+        <button class="load">Load More</button>
+      </div>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="container">
+   <div class="section31">
+          <div class="left">
+              <img src="https://preview.colorlib.com/theme/easylo/assets/img/gallery/about1.jpg.webp" alt="">
+              <div>
+                  <h1>99%</h1>
+                  <p>Customer Satisfaction</p>
+              </div>
+          </div>
+          <div class="right">
+              <h1>We guide projects and organizations in making the right decisions.</h1>
+              <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise
+                  cost. The brochure must grab a viewer’s attention and hold it long enough to deliver the pertinent
+                  information.</p>
+              <hr>
+              <ul>
+                  <li>Monthly recurring revenue</li>
+                  <li>Customer acquisition cost</li>
+                  <li>Number of customers</li>
+              </ul>
+              <button>LEARN MORE</button>
+          </div>
+   </div>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="container section41">
+        <div class="text">
+            <h1>Why choose us?</h1>
+            <p>The brochure must grab a viewer’s attention and hold it long
+                enough to deliver the pertinent information.</p>
+        </div>
+        <div class="sec4card">
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/icon/services4.svg" alt="">
+                <a href="#">Quick apply</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/icon/services5.svg" alt="">
+                <a href="#">Online & Secure</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/icon/services6.svg" alt="">
+                <a href="#">Just time</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/icon/services7.svg" alt="">
+                <a href="#">Low interest</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="container">
+   <div class="section31">
+          <div class="right">
+              <h1>Get loan in 3 easy steps</h1>
+              <p>Tools such as a profit simulator and tax calculator show the value of your stock options and exercise cost. The brochure must grab a viewer’s attention and hold it long enough to deliver the pertinent information.</p>
+              <hr>
+              <ul>
+                  <li>Monthly recurring revenue</li>
+                  <li>Customer acquisition cost</li>
+                  <li>Number of customers</li>
+              </ul>
+              <button>LEARN MORE</button>
+          </div>
+           <div class="left">
+              <img src="https://preview.colorlib.com/theme/easylo/assets/img/gallery/about2.jpg.webp" alt="">
+
+          </div>
+   </div>
+    </div>
+  </section>
+
+  <section class="section6">
+    <div class="container section61">
+        <div class="text">
+            <h1>Latest News</h1>
+        </div>
+        <div class="seccard">
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/gallery/blog1.jpg.webp" alt="">
+                <h6>20 March 2021</h6>
+                <a href="#">What are my options and the cost to exercise</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/gallery/blog2.jpg.webp" alt="">
+                <h6>20 March 2021</h6>
+                <a href="#">What are my options and the cost to exercise</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+            <div>
+                <img src="https://preview.colorlib.com/theme/easylo/assets/img/gallery/blog3.jpg.webp" alt="">
+                <h6>20 March 2021</h6>
+                <a href="#">We’ll connect you with the right people to start</a>
+                <p>Tools such as a profit and tax calculator show the value of your stock options and exercise cost.
+                </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container footcon">
+        <p>Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i> by <a href="#">Colorlib</a></p>
+    </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
