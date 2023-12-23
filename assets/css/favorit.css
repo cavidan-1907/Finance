@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.section2 {
+    background: linear-gradient(rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4)),
+    url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+padding: 40px 0;
+  }
+  .section2 .container .section21 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .section2 .container .section21 .top h1 {
+    color:white;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .section2 .container .section21 .top h1::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    bottom: -20px;
+    left: calc(50% - 55px);
+    background-color: #10C98F;
+  }
+  .section2 .container .section21 .top p {
+    color:white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .section2 .container .section21 #search {
+    margin: 75px 0;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .section2 .container .section21 .botttom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .section2 .container .section21 .botttom .cardd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .section2 .container .section21 .botttom .cardd .img {
+    width: 57.21px;
+    height: 51px;
+  }
+  .section2 .container .section21 .botttom .cardd .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .container .section21 .botttom .cardd .text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section2 .container .section21 .botttom .cardd .text:hover h2 {
+    color:white;
+  }
+  .section2 .container .section21 .botttom .cardd .text h2 {
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+  }
+  .section2 .container .section21 .botttom .cardd .icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+  .section2 .container .section21 .botttom .cardd .icon button {
+    border: none;
+    background-color: transparent;
+  }
+  .section2 .container .section21 .botttom .cardd .icon button i {
+    color:white;
+    font-size: 20px;
+  }
+  .section2 .container .section21 .load {
+    width: 200px;
+    height: 50px;
+    margin: 50px 0 0 0;
+    border: none;
+    background-color: #0F4332;
+    color: white;
+    cursor: grab;
+  }
+.hom {
+    width: 200px;
+    height: 50px;
+    font-weight: 900;
+    margin: 50px 0 0 0;
+    border: none;
+    background-color: #30c795;
+    color: white;
+    cursor: grab;
+    transition: all 1s ease;
+  }
+
+  .section2 .container .section21 .load:active {
+    background-color: #10C98F;
+    cursor: grabbing;
+  }

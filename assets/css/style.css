@@ -7,8 +7,17 @@
   font-family: poppins, sans-serif;
 }
 
+.scroll {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 655656;
+  font-size: 45px;
+  color: rgba(35, 125, 111, 0.467);
+}
+
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   width: 100%;
   margin: 0 auto;
   padding: 0 32px;
@@ -203,6 +212,56 @@
   align-items: center;
   gap: 30px;
 }
+.section2 .container .section21 .bottttom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.section2 .container .section21 .bottttom .cardd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.section2 .container .section21 .bottttom .cardd .img {
+  width: 200px;
+}
+.section2 .container .section21 .bottttom .cardd .img img {
+  width: 100%;
+  height: 100%;
+}
+.section2 .container .section21 .bottttom .cardd .text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  width: 50%;
+}
+.section2 .container .section21 .bottttom .cardd .text:hover h2 {
+  color: #10C98F;
+}
+.section2 .container .section21 .bottttom .cardd .text h2 {
+  font-size: 25px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.section2 .container .section21 .bottttom .cardd .icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+.section2 .container .section21 .bottttom .cardd .icon button {
+  border: none;
+  background-color: transparent;
+}
+.section2 .container .section21 .bottttom .cardd .icon button i {
+  color: #10C98F;
+  font-size: 20px;
+}
 .section2 .container .section21 .top h1 {
   color: #0F4332;
   font-weight: 700;
@@ -230,9 +289,58 @@
   width: 200px;
   height: 30px;
   padding: 5px;
-  background-color: aqua;
+  border: 1px solid black;
 }
-.section2 .container .section21 .load {
+.section2 .container .section21 .botttom {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.section2 .container .section21 .botttom .cardd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.section2 .container .section21 .botttom .cardd .img {
+  width: 57.21px;
+  height: 51px;
+}
+.section2 .container .section21 .botttom .cardd .img img {
+  width: 100%;
+  height: 100%;
+}
+.section2 .container .section21 .botttom .cardd .text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+.section2 .container .section21 .botttom .cardd .text:hover h2 {
+  color: #10C98F;
+}
+.section2 .container .section21 .botttom .cardd .text h2 {
+  font-size: 25px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.section2 .container .section21 .botttom .cardd .icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+.section2 .container .section21 .botttom .cardd .icon button {
+  border: none;
+  background-color: transparent;
+}
+.section2 .container .section21 .botttom .cardd .icon button i {
+  color: #10C98F;
+  font-size: 20px;
+}
+.section2 .container .section21 .load, .section2 .container .section21 .Fav {
   width: 200px;
   height: 50px;
   margin: 50px 0 0 0;
@@ -240,12 +348,23 @@
   background-color: #0F4332;
   color: white;
   cursor: grab;
+  font-weight: 800;
 }
-.section2 .container .section21 .load:active {
+.section2 .container .section21 .load:active, .section2 .container .section21 .Fav:active {
   background-color: #10C98F;
   cursor: grabbing;
 }
 
+@media screen and (max-width: 768px) {
+  .section2 .container .section21 .botttom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .section2 .container .section21 .botttom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .section3 {
   width: 100%;
   padding: 100px 0;

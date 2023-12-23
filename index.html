@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/uptade.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
@@ -27,7 +28,7 @@
             <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="./add.html">Add</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
@@ -92,8 +93,9 @@
               enough to deliver the pertinent information.</p>
         </div>
         <input type="search" id="search" placeholder="Search">
-        <div class="bottom"><div class="card"></div></div>
+        <div class="botttom"></div>
         <button class="load">Load More</button>
+    <a href="./favorit.html">    <button class="Fav">FAVORIT</button></a>
       </div>
     </div>
   </section>
@@ -215,6 +217,26 @@
         <p>Copyright ©2023 All rights reserved | This template is made with <i class="bi bi-heart-fill"></i> by <a href="#">Colorlib</a></p>
     </div>
 </footer>
+<i class="bi bi-arrow-up-circle-fill scroll"></i>
+
+<div class="editB">
+  <div class="container">
+      <form class="form">
+          <p><i class="bi bi-x"></i></p>
+          <label for="category-name">Image:</label>
+         <input type="file" id="file">
+         <div class="img2"> <img src=" " id="img2" alt=""></div>
+      <label for="Name">Name</label>
+      <input type="text" id="name">
+      <label for="desc">Desctription</label>
+      <input type="text" id="desc">
+      <label for="desc">Text</label>
+      <input type="text" id="desc2">
+      <input type="submit" value="Submit" id="submit">
+      </form>
+  </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./assets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

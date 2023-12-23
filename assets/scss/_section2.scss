@@ -10,6 +10,61 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        .bottttom{
+            width: 100%;
+           display: flex;
+           align-items:center ;
+           justify-content: center;
+            gap: 10px;
+            .cardd{
+                display: flex;
+           justify-content: center;
+                align-items: center;
+                gap: 50px;
+                .img{
+                 width:200px;
+               
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                
+                }
+                .text{
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 15px;
+                    width: 50%;
+    
+                    &:hover{
+                        h2{
+                            color: #10C98F;
+                        }
+                    }
+                    h2{
+    font-size: 25px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+                    }
+                }
+                .icon{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+                    gap: 10px;
+                    button{
+                        border: none;
+                        background-color: transparent;
+                        i{
+                            color: #10C98F;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+           }
         
         .top{
             h1{
@@ -40,9 +95,62 @@
             width: 200px;
             height: 30px;
             padding: 5px;
-            background-color: aqua;
+            border: 1px solid black;
         }
-        .load{
+       .botttom{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        .cardd{
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            gap: 20px;
+            .img{
+             width: 57.21px;
+             height: 51px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            
+            }
+            .text{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 15px;
+
+                &:hover{
+                    h2{
+                        color: #10C98F;
+                    }
+                }
+                h2{
+font-size: 25px;
+font-weight: 700;
+transition: all 0.5s ease;
+                }
+            }
+            .icon{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: center;
+                gap: 10px;
+                button{
+                    border: none;
+                    background-color: transparent;
+                    i{
+                        color: #10C98F;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+       }
+        .load,.Fav{
             width: 200px;
             height: 50px;
             margin: 50px 0 0 0;
@@ -50,6 +158,7 @@
             background-color: #0F4332;
             color: white;
             cursor: grab;
+            font-weight: 800;
             &:active{
                 background-color: #10C98F;
                 cursor: grabbing;
@@ -57,4 +166,29 @@
     }
 }
 
+}
+
+@media screen  and (max-width:768px) {
+    .section2{
+        .container{
+        .section21{
+            .botttom{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+}
+}
+
+
+@media screen  and (max-width:576px) {
+    .section2{
+        .container{
+        .section21{
+            .botttom{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+    }
+}
 }
