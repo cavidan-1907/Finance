@@ -30,6 +30,4 @@ form.addEventListener("submit", function (event) {
     }
     console.log(obj);
     reader.readAsDataURL(src);
-    window.location = "../index.html";
-
 })

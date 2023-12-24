@@ -13,7 +13,7 @@ async function getAlldata(){
   coppy = data;
 botom.innerHTML='';
 filterArr = filterArr.length || searchInp.value ? filterArr : data;
-filterArr.slice(0, page).forEach(element => {
+filterArr.forEach(element => {
 
 botom.innerHTML+=`
 <div class="cardd">
